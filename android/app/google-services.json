@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "project_number": "635403852153",
+    "project_id": "landlords-mobile-app",
+    "storage_bucket": "landlords-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635403852153:android:e7d257e91a7ffe360db7a8",
+        "android_client_info": {
+          "package_name": "com.turbotenant.owner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635403852153-3hhi3t6nspijcuoo1e6psu1gjhedev51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuTsxES_kQt3ke8jdBl-GliSlF_AEwXsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635403852153-3hhi3t6nspijcuoo1e6psu1gjhedev51.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "635403852153-b8e9bejgiooi6qulfjiblfti57roepr3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turbotenant.owner",
+                "app_store_id": "1632249196"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635403852153:android:b128981ee37d487c0db7a8",
+        "android_client_info": {
+          "package_name": "com.turbotenantmobileapp.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635403852153-3hhi3t6nspijcuoo1e6psu1gjhedev51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuTsxES_kQt3ke8jdBl-GliSlF_AEwXsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635403852153-3hhi3t6nspijcuoo1e6psu1gjhedev51.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "635403852153-b8e9bejgiooi6qulfjiblfti57roepr3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turbotenant.owner",
+                "app_store_id": "1632249196"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

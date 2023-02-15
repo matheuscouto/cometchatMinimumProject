@@ -1,0 +1,88 @@
+{
+  "cli": {
+    "version": ">= 0.54.1"
+  },
+  "build": {
+    "production": {
+      "channel": "production",
+      "env": {
+        "APP_ENV": "production"
+      }
+    },
+    "staging": {
+      "channel": "staging",
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "APP_ENV": "staging"
+      }
+    },
+    "qa": {
+      "channel": "qa",
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "APP_ENV": "qa"
+      }
+    },
+    "qa2": {
+      "channel": "qa2",
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "APP_ENV": "qa"
+      }
+    },
+    "development": {
+      "channel": "staging",
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "APP_ENV": "dev"
+      }
+    },
+    "development-simulator": {
+      "channel": "staging",
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "APP_ENV": "dev"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./gplay-acc-service.json",
+        "releaseStatus": "draft",
+        "track": "internal"
+      },
+      "ios": {
+        "appleId": "************@************.com",
+        "ascAppId": "************",
+        "appleTeamId": "************"
+      }
+    },
+    "staging": {
+      "extends": "production",
+      "android": {
+        "track": "internal"
+      }
+    }
+  }
+}

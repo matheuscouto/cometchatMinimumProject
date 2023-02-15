@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">TurboTenant</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="facebook_app_id">587687453340933</string>
+  <string name="facebook_client_token">bda5a3c1cb3f489d3ec516280718697a</string>
+  <string name="fb_login_protocol_scheme">fb587687453340933</string>
+</resources>
